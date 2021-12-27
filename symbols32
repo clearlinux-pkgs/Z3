@@ -451,6 +451,7 @@ libz3.so.4.8:Z3_mk_quantifier_ex
 libz3.so.4.8:Z3_mk_re_allchar
 libz3.so.4.8:Z3_mk_re_complement
 libz3.so.4.8:Z3_mk_re_concat
+libz3.so.4.8:Z3_mk_re_diff
 libz3.so.4.8:Z3_mk_re_empty
 libz3.so.4.8:Z3_mk_re_full
 libz3.so.4.8:Z3_mk_re_intersect
@@ -665,12 +666,15 @@ libz3.so.4.8:Z3_solver_inc_ref
 libz3.so.4.8:Z3_solver_interrupt
 libz3.so.4.8:Z3_solver_pop
 libz3.so.4.8:Z3_solver_propagate_consequence
+libz3.so.4.8:Z3_solver_propagate_created
+libz3.so.4.8:Z3_solver_propagate_declare
 libz3.so.4.8:Z3_solver_propagate_diseq
 libz3.so.4.8:Z3_solver_propagate_eq
 libz3.so.4.8:Z3_solver_propagate_final
 libz3.so.4.8:Z3_solver_propagate_fixed
 libz3.so.4.8:Z3_solver_propagate_init
 libz3.so.4.8:Z3_solver_propagate_register
+libz3.so.4.8:Z3_solver_propagate_register_cb
 libz3.so.4.8:Z3_solver_push
 libz3.so.4.8:Z3_solver_reset
 libz3.so.4.8:Z3_solver_set_params
