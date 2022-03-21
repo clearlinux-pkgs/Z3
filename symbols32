@@ -135,6 +135,7 @@ libz3.so.4.8:Z3_get_app_decl
 libz3.so.4.8:Z3_get_app_num_args
 libz3.so.4.8:Z3_get_arity
 libz3.so.4.8:Z3_get_array_sort_domain
+libz3.so.4.8:Z3_get_array_sort_domain_n
 libz3.so.4.8:Z3_get_array_sort_range
 libz3.so.4.8:Z3_get_as_array_func_decl
 libz3.so.4.8:Z3_get_ast_hash
@@ -307,6 +308,7 @@ libz3.so.4.8:Z3_mk_bvult
 libz3.so.4.8:Z3_mk_bvurem
 libz3.so.4.8:Z3_mk_bvxnor
 libz3.so.4.8:Z3_mk_bvxor
+libz3.so.4.8:Z3_mk_char
 libz3.so.4.8:Z3_mk_char_from_bv
 libz3.so.4.8:Z3_mk_char_is_digit
 libz3.so.4.8:Z3_mk_char_le
@@ -458,6 +460,7 @@ libz3.so.4.8:Z3_mk_re_intersect
 libz3.so.4.8:Z3_mk_re_loop
 libz3.so.4.8:Z3_mk_re_option
 libz3.so.4.8:Z3_mk_re_plus
+libz3.so.4.8:Z3_mk_re_power
 libz3.so.4.8:Z3_mk_re_range
 libz3.so.4.8:Z3_mk_re_sort
 libz3.so.4.8:Z3_mk_re_star
@@ -510,8 +513,10 @@ libz3.so.4.8:Z3_mk_str_le
 libz3.so.4.8:Z3_mk_str_lt
 libz3.so.4.8:Z3_mk_str_to_int
 libz3.so.4.8:Z3_mk_string
+libz3.so.4.8:Z3_mk_string_from_code
 libz3.so.4.8:Z3_mk_string_sort
 libz3.so.4.8:Z3_mk_string_symbol
+libz3.so.4.8:Z3_mk_string_to_code
 libz3.so.4.8:Z3_mk_sub
 libz3.so.4.8:Z3_mk_tactic
 libz3.so.4.8:Z3_mk_transitive_closure
