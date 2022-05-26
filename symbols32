@@ -265,6 +265,7 @@ libz3.so.4.8:Z3_mk_ast_map
 libz3.so.4.8:Z3_mk_ast_vector
 libz3.so.4.8:Z3_mk_atleast
 libz3.so.4.8:Z3_mk_atmost
+libz3.so.4.8:Z3_mk_bit2bool
 libz3.so.4.8:Z3_mk_bool_sort
 libz3.so.4.8:Z3_mk_bound
 libz3.so.4.8:Z3_mk_bv2int
@@ -324,6 +325,7 @@ libz3.so.4.8:Z3_mk_constructor_list
 libz3.so.4.8:Z3_mk_context
 libz3.so.4.8:Z3_mk_context_rc
 libz3.so.4.8:Z3_mk_datatype
+libz3.so.4.8:Z3_mk_datatype_sort
 libz3.so.4.8:Z3_mk_datatypes
 libz3.so.4.8:Z3_mk_distinct
 libz3.so.4.8:Z3_mk_div
@@ -672,6 +674,7 @@ libz3.so.4.8:Z3_solver_interrupt
 libz3.so.4.8:Z3_solver_pop
 libz3.so.4.8:Z3_solver_propagate_consequence
 libz3.so.4.8:Z3_solver_propagate_created
+libz3.so.4.8:Z3_solver_propagate_decide
 libz3.so.4.8:Z3_solver_propagate_declare
 libz3.so.4.8:Z3_solver_propagate_diseq
 libz3.so.4.8:Z3_solver_propagate_eq
