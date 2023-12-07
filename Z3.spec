@@ -6,10 +6,10 @@
 # autospec commit: c1050fe
 #
 Name     : Z3
-Version  : 4.12.3
-Release  : 35
-URL      : https://github.com/Z3Prover/z3/archive/z3-4.12.3/z3-4.12.3.tar.gz
-Source0  : https://github.com/Z3Prover/z3/archive/z3-4.12.3/z3-4.12.3.tar.gz
+Version  : 4.12.4
+Release  : 36
+URL      : https://github.com/Z3Prover/z3/archive/z3-4.12.4/z3-4.12.4.tar.gz
+Source0  : https://github.com/Z3Prover/z3/archive/z3-4.12.4/z3-4.12.4.tar.gz
 Summary  : .NET bindings for The Microsoft Z3 SMT solver
 Group    : Development/Tools
 License  : MIT
@@ -95,15 +95,15 @@ license components for the Z3 package.
 
 
 %prep
-%setup -q -n z3-z3-4.12.3
-cd %{_builddir}/z3-z3-4.12.3
+%setup -q -n z3-z3-4.12.4
+cd %{_builddir}/z3-z3-4.12.4
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1701834264
+export SOURCE_DATE_EPOCH=1701914568
 mkdir -p clr-build
 pushd clr-build
 export GCC_IGNORE_WERROR=1
@@ -164,7 +164,7 @@ FFLAGS="$CLEAR_INTERMEDIATE_FFLAGS"
 FCFLAGS="$CLEAR_INTERMEDIATE_FCFLAGS"
 ASFLAGS="$CLEAR_INTERMEDIATE_ASFLAGS"
 LDFLAGS="$CLEAR_INTERMEDIATE_LDFLAGS"
-export SOURCE_DATE_EPOCH=1701834264
+export SOURCE_DATE_EPOCH=1701914568
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/Z3
 cp %{_builddir}/z3-z3-%{version}/LICENSE.txt %{buildroot}/usr/share/package-licenses/Z3/dad4e766bd1dda39916ad6d99a48f02c6884438a || :
@@ -230,12 +230,12 @@ popd
 %files lib
 %defattr(-,root,root,-)
 /usr/lib64/libz3.so.4.12
-/usr/lib64/libz3.so.4.12.3.0
+/usr/lib64/libz3.so.4.12.4.0
 
 %files lib32
 %defattr(-,root,root,-)
 /usr/lib32/libz3.so.4.12
-/usr/lib32/libz3.so.4.12.3.0
+/usr/lib32/libz3.so.4.12.4.0
 
 %files license
 %defattr(0644,root,root,0755)
