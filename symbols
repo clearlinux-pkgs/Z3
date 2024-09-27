@@ -260,6 +260,7 @@ libz3.so.4.13:Z3_is_seq_sort
 libz3.so.4.13:Z3_is_string
 libz3.so.4.13:Z3_is_string_sort
 libz3.so.4.13:Z3_is_well_sorted
+libz3.so.4.13:Z3_mk_abs
 libz3.so.4.13:Z3_mk_add
 libz3.so.4.13:Z3_mk_and
 libz3.so.4.13:Z3_mk_app
@@ -492,10 +493,14 @@ libz3.so.4.13:Z3_mk_seq_concat
 libz3.so.4.13:Z3_mk_seq_contains
 libz3.so.4.13:Z3_mk_seq_empty
 libz3.so.4.13:Z3_mk_seq_extract
+libz3.so.4.13:Z3_mk_seq_foldl
+libz3.so.4.13:Z3_mk_seq_foldli
 libz3.so.4.13:Z3_mk_seq_in_re
 libz3.so.4.13:Z3_mk_seq_index
 libz3.so.4.13:Z3_mk_seq_last_index
 libz3.so.4.13:Z3_mk_seq_length
+libz3.so.4.13:Z3_mk_seq_map
+libz3.so.4.13:Z3_mk_seq_mapi
 libz3.so.4.13:Z3_mk_seq_nth
 libz3.so.4.13:Z3_mk_seq_prefix
 libz3.so.4.13:Z3_mk_seq_replace
@@ -586,6 +591,7 @@ libz3.so.4.13:Z3_optimize_minimize
 libz3.so.4.13:Z3_optimize_pop
 libz3.so.4.13:Z3_optimize_push
 libz3.so.4.13:Z3_optimize_register_model_eh
+libz3.so.4.13:Z3_optimize_set_initial_value
 libz3.so.4.13:Z3_optimize_set_params
 libz3.so.4.13:Z3_optimize_to_string
 libz3.so.4.13:Z3_param_descrs_dec_ref
@@ -727,6 +733,7 @@ libz3.so.4.13:Z3_solver_propagate_register_cb
 libz3.so.4.13:Z3_solver_push
 libz3.so.4.13:Z3_solver_register_on_clause
 libz3.so.4.13:Z3_solver_reset
+libz3.so.4.13:Z3_solver_set_initial_value
 libz3.so.4.13:Z3_solver_set_params
 libz3.so.4.13:Z3_solver_to_dimacs_string
 libz3.so.4.13:Z3_solver_to_string
