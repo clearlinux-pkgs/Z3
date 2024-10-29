@@ -7,7 +7,7 @@
 #
 Name     : Z3
 Version  : 4.13.3
-Release  : 39
+Release  : 40
 URL      : https://github.com/Z3Prover/z3/archive/z3-4.13.3/z3-4.13.3.tar.gz
 Source0  : https://github.com/Z3Prover/z3/archive/z3-4.13.3/z3-4.13.3.tar.gz
 Summary  : .NET bindings for The Microsoft Z3 SMT solver
