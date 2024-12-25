@@ -635,6 +635,7 @@ libz3.so.4.13:Z3_probe_or
 libz3.so.4.13:Z3_qe_lite
 libz3.so.4.13:Z3_qe_model_project
 libz3.so.4.13:Z3_qe_model_project_skolem
+libz3.so.4.13:Z3_qe_model_project_with_witness
 libz3.so.4.13:Z3_query_constructor
 libz3.so.4.13:Z3_rcf_add
 libz3.so.4.13:Z3_rcf_coefficient
@@ -735,6 +736,7 @@ libz3.so.4.13:Z3_solver_register_on_clause
 libz3.so.4.13:Z3_solver_reset
 libz3.so.4.13:Z3_solver_set_initial_value
 libz3.so.4.13:Z3_solver_set_params
+libz3.so.4.13:Z3_solver_solve_for
 libz3.so.4.13:Z3_solver_to_dimacs_string
 libz3.so.4.13:Z3_solver_to_string
 libz3.so.4.13:Z3_solver_translate
